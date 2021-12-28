@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Abhishek Gupta | AI Ethics Researcher and Machine Learning Engineer
+email: abhishek@montrealethics.ai
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Abhishek Gupta is the Founder and Principal Researcher at the Montreal AI Ethics Institute, an international non-profit research institute with a mission to democratize AI ethics literacy. He works in Machine Learning and serves on the CSE Responsible AI Board at Microsoft where his work helps solve the toughest technical challenges of Microsoft's biggest customers. Through his work as the Chair of the Standards Working Group at the Green Software Foundation, he is leading the development of a Software Carbon Intensity standard towards the comparable and interoperable measurement of the environmental impacts of AI systems. His work focuses on applied technical and policy measures for building ethical, safe, and inclusive AI systems, specializing in the operationalization of AI ethics and its deployments in organizations and assessing and mitigating the environmental impact of these systems. His work on community building has been recognized by governments from across North America, Europe, Asia, and Oceania. More information on his work is available here: https://atg-abhishek.github.io 
+twitter_username: atg_abhishek
+github_username: atg-abhishek
 minimal_mistakes_skin: default
 search: true
 
@@ -31,7 +29,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Toronto # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +56,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Abhishek Gupta"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "AI Ethics Researcher and Machine Learning Engineer"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://atg-abhishek.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/atg_abhishek"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/atg-abhishek"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/abhishekguptamcgill"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/atg_abhishek"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/atg-abhishek"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/abhishekguptamcgill"
 
 defaults:
   # _posts
